@@ -7,10 +7,29 @@ html{
 *::after{
   box-sizing: inherit;
 }
+//для прижатия футера к низу странички
+html,
+body{
+	height: 100%;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content{
+	flex: 1 0 auto;
+}
+.footer{
+	flex: 0 0 auto;
+}
+//для прижатия футера к низу странички
 
 a{
   display: inline-block;
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul, li{
@@ -23,4 +42,11 @@ body{
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   color: $text;
+  font-weight: 400;
+}
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
