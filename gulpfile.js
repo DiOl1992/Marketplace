@@ -25,6 +25,7 @@ gulp.task('script', function () {
     'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
     'node_modules/mixitup/dist/mixitup.min.js',
     'node_modules/rateyo/lib/jquery.rateyo.js',
+    'node_modules/mixitup/dist/mixitup.min.js',
 
   ])
     .pipe(concat('libs.min.js'))

@@ -14,4 +14,8 @@ $(function () {
     nextArrow: '<button class="slick-arrow slick-next"><span class="lnr lnr-chevron-right"></span></button>'
   });
 
+
+
+  var mixer = mixitup('.release-products__box');
+
 });
